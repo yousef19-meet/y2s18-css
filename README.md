@@ -11,7 +11,7 @@ Before we begin, make sure to fork and clone this repository as we did yesterday
   cd y2s18-css
   ```
  
-1. Open hello.html and create a page with a header, two paragraphs, and at least one link. If your partner wasn’t here yesterday, teach them about the `<p>`, `<h3>`, and `<a>` tags.
+1. Open hello.html and create a page with a header, two paragraphs, and at least one link.
 
 2. Open style.css and create a style file such that the background color is blue and all text is white.
 
@@ -58,17 +58,28 @@ Read https://www.smashingmagazine.com/2010/02/color-theory-for-designer-part-3-c
 
 ## Lab 3
 
-1. Open `lab3.html`. You will see plenty of `div`s in it, with content, but no classes or ids!
+1. Open `lab3.html`. You will see plenty of `div`s in it, with a **title**, **sidebar** and some **content**, and a **container**.
 
-2. Your job is to add classes and ids until the page has a *title*, a *side bar*, *side bar links*, and a *main content* section.
+2. Open `lab3.css`. Give the sidebar a light background color of your choosing, and make the title bar have larger letters.
 
-3. Open `lab3.css`. Give the sidebar a light background color of your choosing, and make the title bar have larger letters.
+3. Make the title banner have a height of 60px.
 
-4. Make it so that the side bar is to the left of the main content (using the `float` attribute). Then, make the sidebar take up 10% of the width of the screen, and the main content 90%.
+4. Position the sidebar and main content below the title, next to each other, using `position: absolute`. Have the main content be positioned 200px from the left.
 
-5. Have the title banner take up 10% of the height of the screen, using the `height` attribute, and the side bar 90%.
+5. Make it so the sidebar is exactly wide enough to touch the main content.
+
+6. Give the container a height of 100%. This is because the container has only absolutely positioned `<div>`s inside it, which means it has zero size by default.
+
+7. Now, give the sidebar a height of 100%.
 
 #### Extra:
-- Center the text in the title banner and in the sidebar contents using the `text-align` property
-- Look up the `calc()` function and how it works
+- Center the text in the title banner using the `position` and `transform` properties
+- Look up the `calc()` function and how it works, and explain it to a TA
 - Make the sidebar have a gradient background
+
+
+## Lab 4
+
+1. Open `lab3.css` again.
+
+2. 
