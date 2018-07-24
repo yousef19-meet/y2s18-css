@@ -1,14 +1,16 @@
 # Y2 2018 Summer, Day 2: CSS Labs
 
 ## Lab 1
-Before we begin, make sure to clone this repository as we did yesterday:
+Before we begin, make sure to fork and clone this repository as we did yesterday:
 
-```
-cd ~/Desktop
-git clone https://github.com/meet-projects/y2s18-css.git
-cd y2s18-css
-subl hello.html
-```
+  - Click the *Fork* button at the top right of the screen to make your own copy of the repository
+  - Clone it as we did before:
+  ```
+  cd ~/Desktop
+  git clone https://github.com/meet-projects/y2s18-css.git
+  cd y2s18-css
+  ```
+ 
 1. Open hello.html and create a page with a header, two paragraphs, and at least one link. If your partner wasn’t here yesterday, teach them about the `<p>`, `<h3>`, and `<a>` tags.
 
 2. Open style.css and create a style file such that the background color is blue and all text is white.
