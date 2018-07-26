@@ -98,7 +98,7 @@ If you're confused, look at the lecture slide with the title "Lab 3: Hints".
 
 4. Give the sidebar a border of 5 pixels all around of any color and style. Now add padding of 10 pixels all around.
 
-5. Reload the page on your browser. See how the sidebar is now leaking into the main content! Fix this. (For a hint, go to the lecture slide for Lab 3 Hints.)
+5. Reload the page on your browser. See how the sidebar is now leaking into the main content! Fix this. (For a hint, go to the lecture slide for Lab 4 Hints.)
 
 6. Give the main content a border on the left of 2 pixels (any color and style), and a margin of 5 pixels. Also, give it padding on the left of 15 pixels.
 
