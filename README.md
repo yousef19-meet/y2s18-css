@@ -60,15 +60,16 @@ Read https://www.smashingmagazine.com/2010/02/color-theory-for-designer-part-3-c
 
 1. Organize your page:
 
-- In `hello.html`, give the header a class name of "title", and put the rest of your content (paragraphs and links) in a `<div>` with a class of "content".
-- Make another `<div>` between the title and content with a class of "sidebar".
+- In `hello.html`, make the header a div and give it a class name of "title".
+- Put the rest of your content (paragraphs and links) in a `<div>` with a class of "content".
+- Make another `<div>` between the title and content with a class of "sidebar". Put some text or links in it!
 - Lastly, put the "content" and "sidebar" classes in another `<div>` with a class of "container".
 
 If you're confused, look at the lecture slide with the title "Lab 3: Hints".
 
 2. Open `style.css`. Give the sidebar a light background color of your choosing.
 
-3. Make the title banner have a height of 60px.
+3. Make the title banner have a height of 60px, and a width of 100%.
 
 4. Give the `container` class the `position: relative` property.
 
@@ -96,14 +97,17 @@ If you're confused, look at the lecture slide with the title "Lab 3: Hints".
 
 3. In `style.css`, set the margin of `body` to 0px to get rid of this.
 
-4. Give the sidebar a border of 5 pixels all around of any color and style. Now add padding of 10 pixels all around.
+4. Give the sidebar padding of 10 pixels on all sides.
 
 5. Reload the page on your browser. See how the sidebar is now leaking into the main content! Fix this. (For a hint, go to the lecture slide for Lab 4 Hints.)
 
-6. Give the main content a border on the left of 2 pixels (any color and style), and a margin of 5 pixels. Also, give it padding on the left of 15 pixels.
+6. Give the title a solid gray border on the bottom of 1 pixel.
 
-7. As before, `git add`, `commit -m`, and `push` your code, so you have it for later.
+7. Give the main content a border of 2 pixels on all sides (any color and style), and a margin of 5 pixels. Also, give it padding on the left and right of 15 pixels, and on the bottom of 10 pixels (try using the shortcuts we learned in lecture!).
+
+8. As before, `git add`, `git commit -m "message"`, and `git push` your code, so you have it for later.
 
 #### Extra:
+- What happens if you use a negative value for margins or padding? Test it out on the padding of the main content.
 - Look up the `calc()` function and how it works, and explain it to a TA.
 - Get rid of the scrollbar (that is, fit the page on the screen instead of having extra room at the bottom), possibly using the `calc()` function.
