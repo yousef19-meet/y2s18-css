@@ -75,7 +75,7 @@ If you're confused, look at the lecture slide with the title "Lab 3: Hints".
 
 5. Give the sidebar and main content classes `position: absolute;` and `top: 0px;` Have the sidebar be positioned on the left margin of the page, and the main content be positioned 200px from the left.
 
-6. Make it so the sidebar is exactly wide enough to touch the main content.
+6. Make it so the sidebar is exactly wide enough to touch the main content, using the `width` property.
 
 7. Give the container a height of 100%. 
 - This is because the container has only absolutely positioned \<div\>s inside it, which means it has zero size by default.
@@ -85,8 +85,8 @@ If you're confused, look at the lecture slide with the title "Lab 3: Hints".
 9. Lastly, use the inspector on your browser (right-click on the page, then click "Inspect Element") to remove the `position: relative;` property from the `container` class. Notice how the position of the sidebar and main content changes, and show this demo to the TA to get checked off.
 
 #### Extra:
-- Center the text in the title banner using the `position` and `transform: translateX()` properties
 - Make the sidebar have a gradient background
+- Give the title \<div\> a box shadow
 
 
 ## Lab 4
