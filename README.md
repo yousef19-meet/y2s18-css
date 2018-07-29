@@ -99,7 +99,7 @@ If you're confused, look at the lecture slide with the title "Lab 3: Hints".
 
 4. Give the sidebar padding of 10 pixels on all sides.
 
-5. Reload the page on your browser. See how the sidebar is now leaking into the main content! Fix this. (For a hint, go to the lecture slide for Lab 4 Hints.)
+5. Reload the page on your browser. See how the sidebar is now leaking into the main content! Fix this by giving all the elements on the page the `box-sizing: border-box;` property, also known as the "box model fix". (For a hint, go to [the lecture slides.](go.meet.sh/css-lecture))
 
 6. Give the title a solid gray border on the bottom of 1 pixel.
 
@@ -108,6 +108,6 @@ If you're confused, look at the lecture slide with the title "Lab 3: Hints".
 8. As before, `git add`, `git commit -m "message"`, and `git push` your code, so you have it for later.
 
 #### Extra:
-- What happens if you use a negative value for margins or padding? Test it out on the padding of the main content.
+- What happens if you use a negative value for margins or padding? Test it out on the padding of the main content, and on the body.
 - Look up the `calc()` function and how it works, and explain it to a TA.
 - Get rid of the scrollbar (that is, fit the page on the screen instead of having extra room at the bottom), possibly using the `calc()` function.
