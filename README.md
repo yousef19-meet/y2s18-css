@@ -40,7 +40,7 @@ Read https://www.smashingmagazine.com/2010/02/color-theory-for-designer-part-3-c
 
 1. Use a CSS tag selector to change the color of all links.
 
-2. Add a list of six favorite foods to your website. Use `<p>` tags to accomplish this. 
+2. Add a list of six favorite foods to your website. Use the `<ul>` tag to accomplish this. 
 
 3. Use CSS class selectors to make vegetarian foods one color and non-vegetarian foods a different color.
 
