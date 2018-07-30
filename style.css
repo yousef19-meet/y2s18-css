@@ -1,6 +1,12 @@
 
-.article {color:blue;font-size12px;}
+.article {color:blue;font-size12px;background-color:black;}
 
 .link {color:red;font-size16px;}
 
-li {color:green;}
+ul {color:black;}
+
+p {color:black;}
+
+#not-vegan {color:green;background-color:blue;}
+
+#vegan {color:red;background-color:black;}
