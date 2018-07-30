@@ -99,7 +99,7 @@ If you're confused, look at the lecture slide with the title "Lab 3: Hints".
 
 4. Give the sidebar padding of 10 pixels on all sides.
 
-5. Reload the page on your browser. See how the sidebar is now leaking into the main content! Fix this by giving all the elements on the page the `box-sizing: border-box;` property, also known as the "box model fix". (For a hint, go to [the lecture slides.](go.meet.sh/css-lecture))
+5. Reload the page on your browser. See how the sidebar is now leaking into the main content! Fix this by giving all the elements on the page the `box-sizing: border-box;` property, also known as the "box model fix". (For a hint, go to [the lecture slides.](https://go.meet.sh/css-lecture))
 
 6. Give the title a solid gray border on the bottom of 1 pixel.
 
