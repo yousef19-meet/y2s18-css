@@ -54,7 +54,7 @@ Read https://www.smashingmagazine.com/2010/02/color-theory-for-designer-part-3-c
 
 - Pick one element in your page and give it a class and an ID. Then, add three CSS rules to style that element: one with a tag selector, one with a class selector, and one with an ID selector. Which one gets used? What happens if you have only two rules?
 - Find or add two `<p>` and two `<a>` elements on your webpage and give all four of them the same class “muggle”. What happens if you use the selector “p.muggle” in `style.css` instead of ".muggle"? How about “a.muggle”? Explain these selectors to your TA to get checked off.
-- Add a form to your website. You should have at least three checkboxes and one radio button. Add a CSS rule that makes selected checkboxes turn the area around them blue (you may have to add an extra `<div>` around it)
+- Add a form to your website. You should have at least three checkboxes and one radio button. Add a CSS rule that makes selected checkboxes be 50px by 50px.
 
 ## Lab 3
 
