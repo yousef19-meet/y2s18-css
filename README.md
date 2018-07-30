@@ -77,7 +77,7 @@ If you're confused, look at the lecture slide with the title "Lab 3: Hints".
 
 6. Make it so the sidebar is exactly wide enough to touch the main content, using the `width` property.
 
-7. Give the container a height of 100%. 
+7. Give the container a height of 1000px. 
 - This is because the container has only absolutely positioned \<div\>s inside it, which means it has zero size by default.
 
 8. Now, give the sidebar a height of 100%, to have it go all the way down the page.
